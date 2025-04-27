@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.7.0" timestamp="2025-04-26T12:14:14.531">
+<file name="D:\Devopsmycourse\addressbook-v1\src\main\java\com\preethidevops\tutorial\addressbook\ContactForm.java">
+<violation beginline="89" endline="91" begincolumn="11" endcolumn="10" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.preethidevops.tutorial.addressbook" class="ContactForm" method="save" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="D:\Devopsmycourse\addressbook-v1\src\main\java\com\preethidevops\tutorial\addressbook\backend\ContactService.java">
+<violation beginline="62" endline="62" begincolumn="40" endcolumn="88" rule="UselessParentheses" ruleset="Code Style" package="com.preethidevops.tutorial.addressbook.backend" class="ContactService" method="findAll" variable="passesFilter" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="D:\Devopsmycourse\addressbook-v1\src\main\java\com\preethidevops\utilities\GenericComparator.java">
+<violation beginline="234" endline="234" begincolumn="30" endcolumn="36" rule="UnnecessaryModifier" ruleset="Code Style" package="com.preethidevops.utilities" class="GenericComparator" method="invoke" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'final' on method 'invoke': private methods cannot be overridden
+</violation>
+</file>
+<file name="D:\Devopsmycourse\addressbook-v1\src\main\java\com\preethidevops\utilities\LoggerStackTraceUtil.java">
+<violation beginline="53" endline="53" begincolumn="4" endcolumn="24" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="com.preethidevops.utilities" class="LoggerStackTraceUtil" method="printErrorMessage" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary qualifier 'LoggerStackTraceUtil': 'printErrorMessage' is already in scope
+</violation>
+</file>
+<file name="D:\Devopsmycourse\addressbook-v1\src\main\java\com\preethidevops\utilities\PropertyHelper.java">
+<violation beginline="57" endline="58" begincolumn="3" endcolumn="4" rule="EmptyControlStatement" ruleset="Code Style" package="com.preethidevops.utilities" class="PropertyHelper" method="getProperty" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#emptycontrolstatement" priority="3">
+Empty finally clause
+</violation>
+<violation beginline="82" endline="83" begincolumn="3" endcolumn="4" rule="EmptyControlStatement" ruleset="Code Style" package="com.preethidevops.utilities" class="PropertyHelper" method="getProperty" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#emptycontrolstatement" priority="3">
+Empty finally clause
+</violation>
+</file>
+<file name="D:\Devopsmycourse\addressbook-v1\src\main\java\com\preethidevops\utilities\PropertyLoader.java">
+<violation beginline="39" endline="39" begincolumn="30" endcolumn="33" rule="UnusedPrivateField" ruleset="Best Practices" package="com.preethidevops.utilities" class="PropertyLoader" variable="LOG" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+<violation beginline="96" endline="96" begincolumn="4" endcolumn="31" rule="EmptyCatchBlock" ruleset="Error Prone" package="com.preethidevops.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_errorprone.html#emptycatchblock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="D:\Devopsmycourse\addressbook-v1\src\main\java\com\preethidevops\utilities\StringUtilities.java">
+<violation beginline="66" endline="66" begincolumn="30" endcolumn="33" rule="UnusedPrivateField" ruleset="Best Practices" package="com.preethidevops.utilities" class="StringUtilities" variable="LOG" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+<violation beginline="183" endline="183" begincolumn="16" endcolumn="59" rule="UselessParentheses" ruleset="Code Style" package="com.preethidevops.utilities" class="StringUtilities" method="convertStringToDate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="184" endline="184" begincolumn="19" endcolumn="62" rule="UselessParentheses" ruleset="Code Style" package="com.preethidevops.utilities" class="StringUtilities" method="convertStringToDate" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.7.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
