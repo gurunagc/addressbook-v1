@@ -9,9 +9,8 @@ public class GenericResourceBundle {
 		Enumeration <String> keys = rb.getKeys();
 		String value="";
 		while (keys.hasMoreElements()) {
-			
+			//codetrigger
 			String key =  keys.nextElement();
-			//addingcomments
 			if(key.equalsIgnoreCase(source)){
 				value = rb.getString(key);
 			}
