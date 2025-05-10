@@ -40,7 +40,7 @@ pipeline {
 
                 echo 'Compile Hello World'
                 echo "Deploying in ${params.Env} environment"
-                sh "mvn pmd:omd"
+                sh "mvn pmd:pmd"
                 }
             }
         }
@@ -50,7 +50,7 @@ pipeline {
 
                 echo 'Compile Hello World'
                 echo "Deploying in ${params.Env} environment"
-                sh "mvn compile"
+                sh "mvn verify"
                 }
             }
         }
@@ -59,7 +59,7 @@ pipeline {
                 script{
                 echo 'Package Hello World'
                 echo "Packaging version ${params.APPVERSION}"
-                sh "mvn verify"
+                sh "mvn package"
                 }
             }
         }
