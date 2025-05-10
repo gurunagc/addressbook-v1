@@ -2,7 +2,7 @@ pipeline {
    agent none
    tools{
 //     jdk "myjava"
-        maven "mymaven"
+        maven "Maveen"
    }
    parameters{
         string(name:'Env',defaultValue:'Test',description:'Environment to deploy')
@@ -36,7 +36,7 @@ pipeline {
             }
         }
          stage('Package') {//dev
-        agent {label 'linux_slave'}
+        //agent {label 'linux_slave'}
         when{
             expression{
                 BRANCH_NAME == 'b1'
