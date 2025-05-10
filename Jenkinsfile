@@ -37,7 +37,13 @@ pipeline {
         }
          stage('Package') {//dev
         agent {label 'linuxslave'}
-       
+            input{
+            message "Select the version to deploy"
+            ok "version selected"
+            parameters{
+                choice(name:'NEWAPP',choices:['1.2','2.1','3.1',"5.1"])
+            }
+           }
             steps {
                 echo "Package the code ${params.APPVERSION}"
                 sh "mvn package"
